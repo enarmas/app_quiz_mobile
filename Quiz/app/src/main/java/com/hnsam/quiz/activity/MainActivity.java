@@ -202,8 +202,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     Intent intentLogin = new Intent(MainActivity.this, LoginActivity.class);
                     startActivity(intentLogin);
                 } else {
-                    Intent playQuiz = new Intent(MainActivity.this, GetOpponentActivity.class);
-                    startActivity(playQuiz);
+                    //Intent playQuiz = new Intent(MainActivity.this, GetOpponentActivity.class);
+                    //startActivity(playQuiz);
                 }
                 break;
             case R.id.lytPlay:
